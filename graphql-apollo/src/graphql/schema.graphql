@@ -1,0 +1,50 @@
+type Query {
+    health: String
+    users: [User]
+    posts: [Post]
+    post(id: String): Post
+}
+
+type Mutation {
+    addUser(user: UserInput): User
+    addPost(by: ID, post: PostInput): Post
+    addComment(by: ID, on: ID, comment: CommentInput): Comment
+}
+
+input UserInput {
+    userName: String
+    passWord: String
+}
+
+type User {
+    id: ID!
+    userName: String
+    passWord: String
+}
+
+input PostInput {
+    title: String
+    content: String
+}
+
+type Post {
+    id: ID!
+    title: String
+    content: String
+    createdBy: User
+    createdAt: String
+    comments: [Comment]
+}
+
+input CommentInput {
+    content: String
+}
+
+type Comment {
+    id: ID!
+    content: String
+    commentBy: User
+    commentOn: ID
+    commentAt: String
+    comments: [Comment]
+}

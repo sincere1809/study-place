@@ -1,0 +1,16 @@
+[
+  {
+    "id": "HyR77tgU8",
+    "title": "GraphQL- A query language for your API",
+    "content": "GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools.",
+    "createdBy": "HJj6-Yx88",
+    "createdAt": "1584595749763"
+  },
+  {
+    "id": "r1l37Kx8I",
+    "title": "How Apollo helps you go from zero to production with GraphQL",
+    "content": "Apollo is an implementation of GraphQL designed for the needs of product engineering teams building modern, data-driven applications. It encourages an agile, incremental approach and takes special care to avoid requiring any changes to existing APIs and services. Apollo puts particular emphasis on tooling and workflows.",
+    "createdBy": "SJY-fYeIU",
+    "createdAt": "1584595880137"
+  }
+]
